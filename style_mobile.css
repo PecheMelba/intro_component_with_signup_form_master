@@ -1,0 +1,156 @@
+@font-face 
+{
+    font-family: 'Poppins';
+    src: url('font/Poppins-Medium.ttf') format('truetype');
+}
+
+/*-----------------generalities-------------*/
+*
+{
+    font-family: "Poppins";
+    padding: 0;
+    margin: 0;
+}
+.attribution 
+{
+    color: white;
+    margin: 0 auto;
+}
+em
+{
+    font-style: normal;
+    font-weight: bold;
+}
+strong
+{
+    color:red;
+    opacity: 0.6;
+}
+.error-msg
+{
+    display: none;
+    color: red;
+    opacity: 0.7;
+    font-style: italic;
+    font-size: 0.7em;
+    line-height: 0px;
+    align-self: flex-end;
+    text-align: right;
+}
+
+body
+{
+    background-image: url("images/bg-intro-mobile.png");
+    background-color: hsl(0, 100%, 74%);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+/*---------------------------------------------*/
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 100vh;
+    
+}
+#description
+{
+    text-align: center;
+    color: white;
+    width: 90%;
+    padding-bottom: 1em;
+}
+h1
+{
+    font-size: 1.6em;
+}
+p 
+{ 
+    opacity: 0.8;
+    font-size: 1em;
+    padding: 2em 0;
+}
+
+#form-pannel
+{
+    width: 90%;
+}
+#title-form
+{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 0.9em;
+    color: rgb(255, 255, 255);
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 0.7em;
+    box-shadow: 2px 8px 0px rgba(56, 56, 56, 0.274);
+    padding: 1.4em 4em;
+    margin-bottom: 2em;
+}
+#form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 0.7em 1.5em;
+    box-shadow: 1px 8px 0px rgba(56, 56, 56, 0.274);
+}
+#form * { margin: 0.6em 0;}
+input
+{
+    padding: 1.2em;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+    border-radius: 0.3em;
+    width: 80%;
+    outline: none;
+    background: none;
+    padding-right:40px;
+}
+input::placeholder 
+{
+     font-weight: bold;
+     font-size: 1em;     
+}
+input:focus
+{
+    border: 2px solid rgb(128, 128, 128);
+}
+
+#validate_btn
+{
+    color:white;
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 0.3em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    width: 80%;
+    
+    padding: 1.2em;
+    padding-right:40px;
+}
+#validate_btn:hover
+{
+    cursor: pointer;
+    background-color: hsl(154, 48%, 65%);
+}
+#validate_msg
+{
+    color: hsl(246, 25%, 77%);
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.attribution
+{
+    text-align: center;
+}

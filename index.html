@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style_mobile.css">  
+  <link rel="stylesheet" href="style_pc.css">  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+
+</head>
+<body>
+
+  <main>
+    <div id="description">
+      <h1>Learn to code by watching others</h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
+    </div>
+
+    <div id="form-pannel">
+      <div id="title-form"><em>Try it free 7 days</em> then $20/mo. thereafter</div>
+
+      <div id="form">
+        <input type="text" placeholder="First Name" id="first-name-input" required>
+        <div class="error-msg" id="fisrt-name-error">First Name cannot be empty</div>
+        
+        <input type="text" placeholder="Last Name" id="last-name-input" required>
+        <div class="error-msg" id="last-name-error">Last Name cannot be empty</div>
+
+        <input type="email" placeholder="Email Address" id="mail-input" required>
+        <div class="error-msg" id="mail-error">Looks like this is not an email</div>
+
+        <input type="password" placeholder="Password" id="password-input" required>
+        <div class="error-msg" id="password-error">Password cannot be empty</div>
+
+        <div id="validate_btn">Claim your free trial </div>
+        <div id="validate_msg">By clicking the button, you are agreeing to our <strong>Terms and Services</strong></div>
+      </div>
+    </div>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Peche Melba</a>.
+    </p>
+  </main>
+
+
+</body>
+<script src="main.js"></script>
+</html>

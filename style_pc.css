@@ -1,0 +1,50 @@
+@media all and (min-width: 900px)
+{   
+    .error-msg
+    {
+        padding-right: 0.2em;
+    }
+
+    .attribution 
+    {
+        position: absolute;
+        bottom: 0px;
+        padding: 0;
+        margin: 0;
+    }
+    body {margin:0;}  
+    main
+    {
+        flex-direction: row;
+
+        width: 75%;
+        height: 100%;  
+    }
+    #description
+    {
+        width: 90%;
+        padding-right: 5em;
+        text-align: left;
+    }
+    h1
+    {
+        font-size: 3em;
+    }
+    #form-panel
+    {
+        width: 40%;
+        height: 80%;
+        background-color: rgb(160, 240, 140);
+    }
+    #form
+    {
+        padding-top: 1.5em;
+    }
+    #form * { margin: 1em 0;}
+    input
+    {
+        border: 1px solid rgba(128, 128, 128, 0.301);
+        border-radius: 0.3em;
+        width: 80%;      
+    }
+}
