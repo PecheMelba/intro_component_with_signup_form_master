@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://pechemelba.github.io/Social-Proof-section-master/](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/intro-component-with-signup-form-master-CxdVPCmUw](https://your-solution-url.com)
+- Live Site URL: [https://pechemelba.github.io/intro_component_with_signup_form_master/](https://your-live-site-url.com)
 
 ## My process
 
